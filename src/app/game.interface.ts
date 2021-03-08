@@ -4,7 +4,6 @@ export enum FieldValue {
 
 export interface IField {
   readonly value: FieldValue;
-
   /**
    * @return changed instance of game with new state
    */
