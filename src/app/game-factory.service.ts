@@ -18,9 +18,9 @@ export class GameFactoryService {
 
     let fieldValue;
 
-    for(let i = 0; i < 5; i++){
+    for(let i = 0; i < 4; i++){
       field[i] = [];
-      for(let x = 0; x < 5; x++){
+      for(let x = 0; x < 4; x++){
         field[x] = [];
         fieldValue = Math.round(Math.random() * (3));
         if (fieldValue === 0) {
